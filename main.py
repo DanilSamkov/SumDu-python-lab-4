@@ -14,3 +14,21 @@ print("Кількість слів у тексті:", word_count)
 # 3. Заміна слова "Python" на "Java"
 text_replaced = text.replace("Python", "Java")
 print("Текст після заміни слова 'Python':", text_replaced)
+
+
+# Створено студенткою Сідельнік Юлією Іванівною Кн-31/2
+
+# Ініціалізація тексту
+text = "Python є однією з найпопулярніших мов програмування у світі."
+
+# 4. Метод capitalize()
+capitalized_text = text.capitalize()
+print("Текст з великої літери:", capitalized_text)
+
+# 5. Методу count()
+python_count = text.count("Python")
+print("Кількість входжень слова 'Python':", python_count)
+
+# 6. Методу find()
+position = text.find("мов")
+print("Позиція слова 'мов':", position)
